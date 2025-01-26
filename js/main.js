@@ -44,7 +44,7 @@ registerForm && registerForm.addEventListener('submit', function(event) {
     })
     .then(data => {
         console.log(data)
-        location.assign(`${window.location.origin}/login.html`)
+        location.assign(`${window.location.origin}/index.html`)
        
     })
     .catch(error => {

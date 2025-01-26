@@ -154,7 +154,7 @@ registerForm && registerForm.addEventListener('submit', function (event) {
             stateAction('success')
             localStorage.setItem('user', JSON.stringify(res))
             setTimeout(function() {
-                window.location.pathname = '/login.html'
+                window.location.pathname = '/index.html'
             }, 2000)
         })
         .catch(() => {
